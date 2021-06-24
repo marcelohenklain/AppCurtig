@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "248551416075",
+    "project_id": "app-curtig-21",
+    "storage_bucket": "app-curtig-21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248551416075:android:e7e02f2477b06b8741820e",
+        "android_client_info": {
+          "package_name": "com.example.appcurtig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248551416075-2584ck8a5graivcb29mh81pceei0vo79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appcurtig",
+            "certificate_hash": "6298907ff615efe387a7c772de396557854ee780"
+          }
+        },
+        {
+          "client_id": "248551416075-9h381een34nuqmqrp616p77f57n5llm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNsFwlPFPE1kLKeoLgA0-gbKXAHP3Te-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248551416075-9h381een34nuqmqrp616p77f57n5llm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

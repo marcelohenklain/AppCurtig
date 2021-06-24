@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#00A19A" />
+
+    <TextView
+        android:id="@+id/textViewInstrTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textStyle="bold"
+        android:textColor="#00A19A"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="O que este app faz?" />
+
+    <TextView
+        android:id="@+id/textViewInstrConteudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#323232"
+        android:text="Promove autoconhecimento conforme você identifica seus padrões de interesses." />
+
+    <TextView
+        android:id="@+id/textViewLoginTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold"
+        android:textColor="#00A19A"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Login" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:startIconDrawable="@drawable/ic_user"
+        app:startIconContentDescription="user"
+        android:hint="Usuário">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayoutSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_senha"
+        app:startIconContentDescription="senha"
+        app:endIconMode="password_toggle"
+        android:hint="Senha">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <Button
+            android:id="@+id/buttonAcessar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="Acessar App" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewCadastroTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textStyle="bold"
+        android:textColor="#00B0A8"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Ainda não possui login?" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCadastrese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="Cadastre-se" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewCreditoTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold"
+        android:textColor="#00A19A"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Créditos" />
+
+    <TextView
+        android:id="@+id/textViewCreditoConteudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#323232"
+        android:text="Desenvolvido por Marcelo sob supervisão do Prof. Dion." />
+
+</LinearLayout>

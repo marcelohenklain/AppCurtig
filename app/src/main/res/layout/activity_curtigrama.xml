@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#00A19A" />
+
+    <TextView
+        android:id="@+id/textViewCurtigrama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textStyle="bold"
+        android:textColor="#00A19A"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Curtigrama" />
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/textViewComoPreencher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#323232"
+        android:text="Aparecerá uma frase por vez. Marque a opção que julgar adequada e clique em responder." />
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/textViewItemCurtigrama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="ITEM DO CURTIGRAMA" />
+
+    <RadioGroup
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButtonSGSF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gosto e Faço" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNGSF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não gosto e faço" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSGNF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gosto e não faço" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNGNF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não gosto e não faço" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <Button
+            android:id="@+id/buttonResponder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="Responder" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

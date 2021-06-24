@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#00A19A" />
+
+    <TextView
+        android:id="@+id/textViewResultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textStyle="bold"
+        android:textColor="#00A19A"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Resultados" />
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/textViewAdvertencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#323232"
+        android:text="Aqui está o seu curtigrama. Faça um print desta tela e guarde os seus resultados :)" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+    </LinearLayout>
+
+
+</LinearLayout>
